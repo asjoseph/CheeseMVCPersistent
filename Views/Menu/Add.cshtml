@@ -1,15 +1,15 @@
-﻿@model CheeseMVC.ViewModels.ViewMenuViewModel
+﻿@model CheeseMVC.ViewModels.AddMenuViewModel
 
+@{ ViewBag.Title = "New Menu"; }
 <h1>@ViewBag.Title</h1>
 
-@foreach (var item in Model.Items)
-{
-<ul>
-    @item.Cheese.Name
-</ul>
-}
-@if(Model.Items.Count == 0)
-{
-    <p>Please Add Menu Items</p>
-}
-<p><a asp-controller="Menu" asp-action="AddItem" asp-route-id="@Model.Menu.ID">Add Item</a></p>
+<form asp-controller="Menu" asp-action="Add" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add Menu" />
+    </div>
+</form>
