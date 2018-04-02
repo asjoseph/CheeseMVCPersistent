@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CheeseMVC.Models;
+using System.Collections.Immutable;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CheeseMVC.ViewModels
@@ -18,8 +19,9 @@ namespace CheeseMVC.ViewModels
 
         public AddMenuItemViewModel(Menu menu, IEnumerable<Cheese> cheeses)
         {
-            Menu = Menu;
+            Menu = menu;
             Cheeses = new List<SelectListItem>();
+
             foreach (var cheese in cheeses)
             {
                 Cheeses.Add(new SelectListItem
