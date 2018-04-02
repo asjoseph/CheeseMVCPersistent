@@ -52,12 +52,12 @@ namespace CheeseMVC.Controllers
 
         }
 
+        [HttpGet]
         public IActionResult ViewMenu(int id)
         {
-            if (id == 0)
-            {
-                return Redirect("/Menu");
-            }
+            //if (id == 0)
+            //{
+              //  return Redirect("/Menu");
 
             Menu menu = context.Menus.Single(m => m.ID == id);
 
