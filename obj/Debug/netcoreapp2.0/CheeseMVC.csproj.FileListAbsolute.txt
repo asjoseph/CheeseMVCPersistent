@@ -1,0 +1,11 @@
+C:\Users\HP\Source\Repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.AssemblyInfoInputs.cache
+C:\Users\HP\Source\Repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.AssemblyInfo.cs
+C:\Users\HP\Source\Repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.csprojResolveAssemblyReference.cache
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\bin\Debug\netcoreapp2.0\CheeseMVC.deps.json
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\bin\Debug\netcoreapp2.0\CheeseMVC.runtimeconfig.json
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\bin\Debug\netcoreapp2.0\CheeseMVC.runtimeconfig.dev.json
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\bin\Debug\netcoreapp2.0\CheeseMVC.dll
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\bin\Debug\netcoreapp2.0\CheeseMVC.pdb
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.dll
+C:\Users\HP\source\repos\CheeseMVCPersistent2\src\CheeseMVC\obj\Debug\netcoreapp2.0\CheeseMVC.pdb
